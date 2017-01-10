@@ -1,9 +1,15 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+require('./scss/app.scss')
+
 class App extends React.Component {
   render () {
-    return <p> Hello React!</p>;
+    return (
+      <div>
+        it works!
+      </div>
+    );
   }
 }
 
